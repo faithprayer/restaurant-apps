@@ -100,7 +100,10 @@ module.exports = {
         }),
       ],
     }),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'json',
+      openAnalyzer: false,
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
   ],
