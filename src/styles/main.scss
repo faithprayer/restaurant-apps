@@ -86,13 +86,13 @@ html {
   left: 0;
   padding: 8px;
   background-color: $bg;
-  color: $primary;
+  color: #435334;
   min-width: 50px;
   min-height: 50px;
   z-index: 100;
 
   &:focus {
-    top: 100px;
+    top: 200px;
   }
 }
 
